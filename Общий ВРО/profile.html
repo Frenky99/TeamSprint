@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_wrap">
+
+            <div class="header_logos">
+                <a href="index.html"><img src="img/logo_vro.svg" alt="logo"></a>
+                <img src="img/logo_rso.svg" alt="logo1" class="logo1">
+            </div>
+
+            <div class="header_box">
+                <div class="container header__container">
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="menu header__menu topmenu menu_home">
+                            <li class="hover_link"><a class="navigation__link" href="index.html">Главная</a></li>
+                            <li class="hover_link"><a href="#" class="down navigation__link">О нас</a>
+                                <ul class="submenu ul_about">
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Российские Студенческие
+                                            Отряды</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Волгоградское Региональное
+                                            Отделение</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Контакты</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Галерея</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Новости</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover_link"><a href="#" class="down navigation__link">Мероприятия</a>
+                                <ul class="submenu ul_events">
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Поиск по категориям</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Календарь мероприятий</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Мои мероприятия</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover_link"><a href="#" class="down navigation__link">Вступление</a>
+                                <ul class="submenu ul_entry">
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Как вступить</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Направления</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Отряды</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover_link"><a href="#" class="down navigation__link">Трудоустройство</a>
+                                <ul class="submenu ul_job">
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Общая информация</a></li>
+                                    <li><a target="_blank" class="header_link navigation__link" href="coming_soon_page.html">Объекты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="acor-container header__menu topmenu"> 
+                            <div class="acor_a_wrap">
+                                <a class="acor_a" href="index.html">Главная</a>
+                            </div>
+                            <input type="checkbox" name="acor" id="acor2" />
+                            <label for="acor2">О нас</label>
+                            <div class="acor-body">
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Российские Студенческие Отряды</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Волгоградское Региональное
+                                    Отделение</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Контакты</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Галерея</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Новости</a>
+                            </div>
+                            
+                            <input type="checkbox" name="acor" id="acor3" />
+                            <label for="acor3">Мероприятия</label>
+                            <div class="acor-body">
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Поиск по категориям</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Календарь мероприятий</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Мои мероприятия</a>
+                            </div> 
+                        
+                            <input type="checkbox" name="acor" id="acor4" />
+                            <label for="acor4">Вступление</label>
+                            <div class="acor-body">
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Как вступить</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Направления</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Отряды</a>
+                            </div> 
+                            
+                            <input type="checkbox" name="acor" id="acor5" />
+                            <label for="acor5">Трудоустройство</label>
+                            <div class="acor-body">
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Общая информация</a>
+                                <a class="header_link navigation__link" href="coming_soon_page.html">Объекты</a>
+                            </div> 
+                            
+                        </div>
+                    </nav>
+                </div>
+                <form action="/login">
+                    <div class="header_right">
+                        <a class="header_link_lk" href="#">Личный кабинет</a>
+                        <img class="header_photo" src="img/profile/lk.png" alt="avatar">
+                    </div>
+                    <div class="burger_icon">
+                        <div class="container header__container">
+                            <div class="menu-burger_img">
+                                <img class="avatar_img" src="img/profile/avatar.svg" alt="avatar icon">
+                            </div>
+                            <nav class="header__nav">
+                                <ul class="menu header_menu topmenu">
+                                    <li><a href="profile.html" class="navigation__link">Профиль</a></li>
+                                    <li><a href="post.html" class="navigation__link">Мой отряд</a></li>
+                                    <li><a href="events.html" class="navigation__link">Мои мероприятия</a></li>
+                                    <li><a href="setting.html" class="navigation__link">Настройки</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Навигация -->
+        <section class="section_wrap">
+            <div class="section_box">
+                <div class="navigation">
+                    <ul class="navigation_list">
+                        <li class="navigation_item"><a class="navigation_link" href="profile.html">Профиль</a></li>
+                        <li class="navigation_item"><a class="navigation_link" href="post.html">Мой отряд</a></li>
+                        <li class="navigation_item"><a class="navigation_link" href="events.html">Мои мероприятия</a>
+                        </li>
+                        <li class="navigation_item"><a class="navigation_link" href="setting.html">Настройки</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Профиль -->
+        <section class="section_wrap">
+            <div class="profile">
+                <div class="profile_left">
+                    <img class="profile_left_img" src="img/profile/lk.png" alt="profile_photo">
+                    <div class="profile_left_points">
+                        <div>Баллы участника:</div>
+                        <div>12</div>
+                    </div>
+                    <div class="profile_left_payment">
+                        <div>Членский взнос:</div>
+                        <div class="profile_left_payment_status">Оплачен</div>
+                    </div>
+                    <a target="_blank" class="profile_left_question" href="coming_soon_page.html">Как оплатить членский
+                        взнос?</a>
+                </div>
+                <div class="profile_right">
+                    <div class="profile_right_top">
+                        <h3 class="profile_name">Иванов Иван Иванович</h3>
+                        <a target="_blank" class="profile_social_link" href="https://vk.com/durov"><img
+                                src="img/profile/vk_blue.svg" alt="vk"></a>
+                    </div>
+                    <div class="profile_right_info">
+                        <div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Учебное заведение</h4>
+                                <div class="lk_text">ВолгГТУ</div>
+                            </div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Отряд</h4>
+                                <div class="lk_text">ССервО Мафия</div>
+                            </div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Должность</h4>
+                                <div class="lk_text">Командир</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Логин</h4>
+                                <div class="lk_text">lapulya777</div>
+                            </div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Элекронная почта</h4>
+                                <div class="lk_text">lapulya777@mail.ru</div>
+                            </div>
+                            <div class="profile_right_wrap">
+                                <h4 class="profile_subtitle">Номер телефона</h4>
+                                <div class="lk_text">+7 (999) 999 99 99</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile_right_wrap">
+                        <h4 class="profile_subtitle">О себе</h4>
+                        <p class="lk_text">
+                            Я ответственный, проактивный, стрессоустойчивый, коммуникабельный, честный. Мои сильные
+                            стороны
+                            —
+                            хорошие управленческие и лидерские навыки, клиентоориентированность, системное мышление,
+                            позитивный настрой. Не пью, не курю, есть права категории B.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Мероприятия -->
+        <section class="section_wrap">
+            <div class="events">
+                <h2 class="events_title">Последние мероприятия</h2>
+                <div class="events_wrapper_img">
+                    <div class="events_wrap_img">
+                        <img class="events_img" src="img/profile/work.png" alt="work">
+                    </div>
+
+                    <div class="events_wrap_img">
+                        <img class="events_img" src="img/profile/growth.png" alt="growth">
+                    </div>
+                </div>
+                <a target="_blank" class="evets_link" href="events.html #A">Показать все</a>
+            </div>
+        </section>
+
+        <!-- Отряд -->
+        <section class="section_wrap">
+            <div class="squad">
+                <h2 class="squad_title">Мой отряд</h2>
+                <div class="squad_wrap">
+                    <div class="squad_name">Мафия</div>
+                    <div>
+                        <div>
+                            <h4 class="squad_subtitle">Командир</h4>
+                            <div class="squad_commander_wrap">
+                                <div class="squad_commander_box">
+                                    <img src="img/profile/commander.png" alt="commander">
+                                    <div class="squad_profile_name">Низовкин Венедикт Прокофиевич</div>
+                                </div>
+                                <img class="squad_post_img" src="img/profile/profile.svg" alt="profile">
+                            </div>
+                        </div>
+                        <div class="squad_post_wrap">
+                            <div class="squad_post_bottom">
+                                <h4 class="squad_subtitle">Комиссар</h4>
+                                <div class="squad_post_box">
+                                    <div class="squad_post_box_bottom">
+                                        <img src="img/profile/commissar.png" alt="commissar">
+                                        <div class="squad_profile_name">Алеева Евгения Мартиновна</div>
+                                    </div>
+                                    <img class="squad_post_img" src="img/profile/profile.svg" alt="profile">
+                                </div>
+                            </div>
+                            <div class="squad_post_bottom">
+                                <h4 class="squad_subtitle">Мастер - методист</h4>
+                                <div class="squad_post_box">
+                                    <div class="squad_post_box_bottom">
+                                        <img src="img/profile/master.png" alt="master">
+                                        <div class="squad_profile_name">Молчанова Юлия Романовна</div>
+                                    </div>
+                                    <img class="squad_post_img" src="img/profile/profile.svg" alt="profile">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Модальное окно профиля-->
+        <section class="modal" id="modal">
+            <div class="modal_wrapper">
+                <div class="modal_wrap">
+                    <div class="modal_wrap_img">
+                        <img class="modal_img" src="img/profile/lk.png" alt="profile_photo">
+                    </div>
+                    <div class="modal_right">
+                        <div class="modal_right_top">
+                            <h3 class="modal_name">Иванов Иван Иванович</h3>
+                            <a target="_blank" class="modal_social_link" href="https://vk.com/durov"><img
+                                    src="img/profile/vk_blue.svg" alt="vk"></a>
+                        </div>
+                        <div class="modal_right_info">
+                            <div>
+                                <div class="modal_right_wrap">
+                                    <h4 class="modal_subtitle">Учебное заведение</h4>
+                                    <div class="modal_text">ВолгГТУ</div>
+                                </div>
+                                <div class="modal_right_wrap">
+                                    <h4 class="modal_subtitle">Отряд</h4>
+                                    <div class="modal_text">ССервО Мафия</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="modal_right_wrap">
+                                    <h4 class="modal_subtitle">Должность</h4>
+                                    <div class="modal_text">Командир</div>
+                                </div>
+                                <div class="modal_right_wrap">
+                                    <h4 class="modal_subtitle">Элекронная почта</h4>
+                                    <div class="modal_text">lapulya777@mail.ru</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal_right_wrap">
+                            <h4 class="modal_subtitle">О себе</h4>
+                            <p class="modal_text">
+                                Я ответственный, проактивный, стрессоустойчивый, коммуникабельный, честный. Мои сильные
+                                стороны
+                                —
+                                хорошие управленческие и лидерские навыки, клиентоориентированность, системное мышление,
+                                позитивный настрой. Не пью, не курю, есть права категории B.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="close_wrap">
+                    <button type="button" id="close_btn" class="close_btn">
+                        <img class="close_wrap_img" src="img/profile/cross.svg" alt="cross_close" class="close_img">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Модальное окно профиля конец-->
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_wrap">
+            <div class="footer_contacts">
+                <h3 class="contacts_h3">Контакты</h3>
+                <ul>
+                    <li> <img src="img/label.svg" alt=""> <a href="https://yandex.ru/maps/-/CCUKuGTXdC"
+                            target="_blank">г. Волгоград, ул. Невская,
+                            д.6</a></li>
+                    <li><img src="img/mail.svg" alt=""> <a href="mailto:vlgrso@mail.ru">vlgrso@mail.ru</a></li>
+                    <li><img src="img/phone.svg" alt=""> <a href="tel:+78442338443">8(8442)33-84-43</a></li>
+                </ul>
+            </div>
+            <div class="footer_right">
+                <p class="footer_right_text">
+                    <span>Волгоградское региональное отделение</span>
+                    <span>Молодежной общероссийской общественной организации</span>
+                    <span>“Российские Студенческие Отряды”</span>
+                </p>
+                <div class="footer_right_social">
+                    <a href="https://vk.com/shtabrso_vlg" target="_blank"> <img src="img/vk.svg" alt="vk"> </a>
+                    <a href="https://t.me/shtabrso_vlg" target="_blank"> <img src="img/telegram.svg" alt="telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modal_personal.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+
+</html>
